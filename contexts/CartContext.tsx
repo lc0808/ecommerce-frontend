@@ -11,23 +11,9 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
   const [items, setItems] = useLocalStorage<CartItem[]>("cart", []);
   const [isLoading, setIsLoading] = useState(true);
 
-  useState(() => {
-    try {
-      const savedCart = localStorage.getItem("cart");
-      if (savedCart) {
-        setItems(JSON.parse(savedCart));
-      }
-    } catch (error) {
-      console.error("Error loading cart:", error);
-    }
-    setIsLoading(false);
-  });
-
   useEffect(() => {
-    if (!isLoading) {
-      localStorage.setItem("cart", JSON.stringify(items));
-    }
-  }, [items, isLoading]);
+    setIsLoading(false);
+  }, []);
 
   const addItem = (product: Product, quantity: number) => {
     setItems((currentItems) => {
