@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "test:2e2": "playwright test"
+    "test:e2e": "playwright test"
   },
   "dependencies": {
     "@heroicons/react": "^2.2.0",
@@ -16,7 +16,7 @@
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "lucide-react": "^0.475.0",
-    "next": "15.1.6",
+    "next": "^16.1.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-hot-toast": "^2.5.1",
