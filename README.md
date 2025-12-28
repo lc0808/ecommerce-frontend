@@ -2,6 +2,21 @@
 
 Este projeto é um desafio para implementar um e-commerce de vestuário utilizando a API disponibilizada pelos organizadores do desafio. O objetivo é criar uma plataforma onde os usuários possam visualizar produtos, filtrá-los por categoria, adicionar/remover itens do carrinho e navegar entre as páginas de produtos de forma paginada.
 
+## 🎨 Design e Protótipos
+
+O design do site foi desenvolvido seguindo os protótipos abaixo como embasamento visual. Estes servem como referência para a estrutura e layout da aplicação:
+
+### Protótipos de Design
+
+**Home - Listagem de Produtos:**
+![Ecommerce Home](./public/assets/Ecommerce%2003.png)
+
+**Página de Carrinho:**
+![Ecommerce Carrinho](./public/assets/Ecommerce%2001.png)
+
+**Página de Produto:**
+![Ecommerce Produto](./public/assets/Ecommerce%2002.png)
+
 ## 🚀 Tecnologias Utilizadas
 
 - **Next.js** (React)
